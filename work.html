@@ -21,36 +21,102 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/fe99830f52.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="images/logo.png" class="logo d-none d-md-block" alt="Ashley Logo" />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Ashley Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+
+          <li>
+            <a href="/about.html" title="About Ashley">About</a>
+          </li>
+
+          <li class="active">
+            <a href="/work.html" title="Ashley's work">Work</a>
+          </li>
+
+          <li>
+            <a href="/contact.html" title="Contact Ashley">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
 
         <div class="row">
           <div class="col-md-6 mb-4">
-            <img src="images/afrobeats.png" class="img-fluid mb-3 rounded" alt="" />
+            <img src="images/afrobeats.png" class="img-fluid mb-3 rounded" alt="Afrobeats project preview" />
             <h3 class="text-center m-0">Afrobeats Project</h3>
             <p class="text-center text-muted">Built with HTML and CSS</p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="images/weather.png" class="img-fluid mb-3 rounded" alt="" />
+            <img src="images/weather.png" class="img-fluid mb-3 rounded" alt="Weather project preview" />
             <h3 class="text-center m-0">Weather App Project</h3>
             <p class="text-center text-muted">Built with HTML, CSS and Javascript</p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="images/world-clock.png" class="img-fluid mb-3 rounded" alt="" />
+            <img src="images/world-clock.png" class="img-fluid mb-3 rounded" alt="World clock project preview" />
             <h3 class="text-center m-0">World Clock Project</h3>
             <p class="text-center text-muted">Built with HTML, CSS and Javascript</p>
           </div>
           <div class="col-md-6">
-            <img src="images/ai-poem.png" class="img-fluid mb-3 rounded" alt="" />
+            <img src="images/ai-poem.png" class="img-fluid mb-3 rounded" alt="Poem Generator preview" />
             <h3 class="text-center m-0">AI Poem Generator Project</h3>
             <p class="text-center text-muted">Built with HTML, CSS and Javascript</p>
           </div>
         </div>
       </div>
     </div>
+    <footer class="container">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+          <h3>
+            Work Inquiry
+          </h3>
+          <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+          <a href="/contact.html" class="btn btn-branding" title="Contact Ashley">Contact me</a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:itsashleycarmel@gmail.com" class="email-link" title="Email Ashley"
+          >itsashleycarmel@gmail.com</a
+        >
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://github.com/ashleycarmel" target="_blank" title="GitHub profile">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://instagram.com/aashleee___" target="_blank" title="Instagram profile">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://twitter.com/ashley" target="_blank" title="Twitter profile">
+            <i class="fa-brands fa-twitter"></i>
+          </a>
+        </div>
+        <p class="text-center mt-5">
+          ✌🏾 This project was coded by Ashley Carmél St. Louis, and it is open-sourced on
+          <a href="https://github.com/ashleycarmel/portfolio-project" target="_blank">GitHub</a>.
+        </p>
+      </footer>
   </body>
 </html>

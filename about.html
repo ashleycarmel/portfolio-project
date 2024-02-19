@@ -21,9 +21,46 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <script
+      src="https://kit.fontawesome.com/fe99830f52.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Ashley Logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Ashley Logo"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+
+          <li class="active">
+            <a href="/about.html" title="About Ashley">About</a>
+          </li>
+
+          <li>
+            <a href="/work.html" title="Ashley's work">Work</a>
+          </li>
+
+          <li>
+            <a href="/contact.html" title="Contact Ashley">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -36,13 +73,74 @@
               everything is well explained, homework and deadlines are good for
               keep focus.
             </p>
-            <a href="" class="btn btn-branding">View my projects</a>
+            <a href="/work.html" class="btn btn-branding">View my projects</a>
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/ashley.jpeg" alt="" class="my-photo" class="img-fluid" />
+          <img
+            src="images/ashley.jpeg"
+            alt="photo of Ashley"
+            class="my-photo"
+            class="img-fluid"
+          />
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding"
+            title="Contact Ashley"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:itsashleycarmel@gmail.com"
+          class="email-link"
+          title="Email Ashley"
+          >itsashleycarmel@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/ashleycarmel"
+          target="_blank"
+          title="GitHub profile"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://instagram.com/aashleee___"
+          target="_blank"
+          title="Instagram profile"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://twitter.com/ashley"
+          target="_blank"
+          title="Twitter profile"
+        >
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        ✌🏾 This project was coded by Ashley Carmél St. Louis, and it is
+        open-sourced on
+        <a
+          href="https://github.com/ashleycarmel/portfolio-project"
+          target="_blank"
+          >GitHub</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>
