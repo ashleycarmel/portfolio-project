@@ -7,6 +7,7 @@
 
 body {
   font-family: var(--default-font-family);
+  background: var(--secondary-color);
 }
 
 h1,
@@ -21,16 +22,19 @@ h6 {
 }
 
 h1 {
-  font-size: 75px;
+  font-size: 80px;
   line-height: 1.5;
+  color: var(--secondary-color);
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 60px;
+  color: var(--secondary-color);
 }
 
 h3 {
   font-size: 48px;
+  color: var(--secondary-color);
 }
 
 p {
@@ -40,7 +44,7 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
+  background: var(--branding-color);
   text-align: center;
   padding: 100px 40px;
 }
@@ -49,7 +53,7 @@ p {
   font-family: var(--default-font-family);
   font-weight: normal;
   line-height: 1.5;
-  font-size: 25px;
+  font-size: 26px;
 }
 
 .content-container {
@@ -57,25 +61,28 @@ p {
 }
 
 .content h1 {
+  color: var(--branding-color);
   font-size: 54px;
   line-height: 80px;
   text-align: center;
 }
 
 .content h2 {
+  color: var(--branding-color);
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
 .content h3 {
-  font-size: 24px;
+  font-size: 34px;
   line-height: 1.5;
   margin: 20px 0 0;
   font-family: var(--default-font-family);
+  color: var(--branding-color);
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .content {
@@ -83,9 +90,9 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: var(--secondary-color);
   border-radius: 4px;
-  color: white;
+  color: maroon;
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
@@ -100,10 +107,20 @@ p {
   padding: 12px 20px;
 }
 
+.btn-project {
+  background: var(--branding-color);
+  color: white;
+}
+
+.btn-branding:hover {
+  border: 1px solid var(--secondary-color);
+  color: white;
+}
+
 .my-photo {
   display: flex;
   max-width: 350px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: auto;
 }
 
@@ -143,9 +160,8 @@ footer {
 }
 
 footer .contact-box {
-  background: var(--secondary-color);
+  background: var(--branding-color);
   padding: 30px 120px;
-  border-radius: 10px;
 }
 
 footer .contact-box p {
@@ -166,7 +182,8 @@ footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
   background: var(--secondary-color);
-  padding: 10px 14px;
+  border: 1px solid var(--branding-color);
+  padding: 15px 20px;
   font-size: 18px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
