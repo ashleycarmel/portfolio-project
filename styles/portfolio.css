@@ -177,7 +177,7 @@ footer {
 
 footer .contact-box {
   background: var(--branding-color);
-  padding: 100px 60px;
+  padding: 80px 40px;
 }
 
 footer .contact-box p {
@@ -208,6 +208,10 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+
+footer .hosted {
+  font-size: 11px;
 }
 
 @media (max-width: 900px) {
