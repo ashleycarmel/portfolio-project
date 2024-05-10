@@ -96,6 +96,10 @@ p {
   margin: 30px;
 }
 
+.bio-content {
+  margin-top: 100px;
+}
+
 .btn-branding {
   background: var(--secondary-color);
   border-radius: 4px;
@@ -132,6 +136,7 @@ p {
   display: flex;
   max-width: 350px;
   border-radius: 5px;
+  border: 10px double #dd836f;
   margin: auto;
   margin-top: 70px;
   margin-bottom: 5px;
