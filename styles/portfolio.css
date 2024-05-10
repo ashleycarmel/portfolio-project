@@ -178,13 +178,21 @@ footer .contact-box {
 }
 
 footer .contact-box p {
-  margin: 0;
+  margin-left: 100px;
+}
+
+footer .contact-box h3 {
+  margin-left: 100px;
 }
 
 footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
+}
+
+footer .contact-button {
+  margin-right: 100px;
 }
 
 footer .email-link:hover {
