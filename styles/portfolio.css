@@ -56,10 +56,6 @@ p {
   font-size: 30px;
 }
 
-.content-container {
-  padding: 60px 20px;
-}
-
 .content h1 {
   color: var(--branding-color);
   font-size: 54px;
