@@ -89,7 +89,6 @@ p {
 }
 
 .content h3 a {
-  text-decoration: none;
   color: var(--branding-color);
 }
 
