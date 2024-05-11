@@ -93,11 +93,18 @@ p {
 }
 
 .content {
-  margin: 30px;
+  margin: 20px;
 }
 
 .bio-content {
   margin-top: 100px;
+}
+
+.info-content {
+  border: 10px double #dd836f;
+  text-align: center;
+  border-radius: 5px;
+  padding: 60px 60px;
 }
 
 .btn-branding {
@@ -179,7 +186,7 @@ footer {
 
 footer .contact-box {
   background: var(--branding-color);
-  padding: 80px 40px;
+  padding: 60px 20px;
 }
 
 footer .contact-box p {
